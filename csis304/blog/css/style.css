@@ -1,0 +1,111 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+footer {
+  background-color: #EEEDE7;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+header {
+  background-color: #EEEDE7;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+a {
+  text-align: center;
+}
+
+.post {
+  margin: 5px;
+  border: 10px;
+  border: solid black 3px;
+}
+
+#postContainer {
+  background-color: #EEEDE7;
+  padding: 20px;
+  margin: 10px;
+}
+
+.individualPost {
+  background-color: #EEEDE7;
+  padding: 10px;
+  margin: 5px;
+  border: solid black 3px;
+}
+
+.reply {
+  border: solid black 3px;
+  margin-left: 20px;
+  background-color: #E7D2CC;
+}
+
+.mainBtn {
+  background-color: #B9B7BD;
+  border: none;
+  color: black;
+  padding: 8px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+}
+
+.delete {
+  background-color: #B9B7BD;
+  border: none;
+  color: black;
+  padding: 7px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 3px;
+}
+
+.makeReply {
+  background-color: #B9B7BD;
+  border: none;
+  color: black;
+  padding: 7px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 3px;
+}
+
+.edit {
+  background-color: #B9B7BD;
+  border: none;
+  color: black;
+  padding: 7px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 3px;
+}
+
+textarea {
+  background-color: #B9B7BD;
+  margin-left: 7px;
+}
+
+html {
+  background-color: #868B8E;
+}
+
+#menu {
+  background-color: #EEEDE7;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+}

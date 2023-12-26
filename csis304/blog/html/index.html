@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Stream of Conscience</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="replies.js"></script>
+  <script src="users.js"></script>
+  <script src="script.js"></script>
+  <script src="logout.js"></script>
+  <script src="newuser.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- link to bootstrap provided by instructor-->
+</head>
+
+<body onload="onPageStart()">
+<header>
+<h1>Stream of Conscience: The Blog Site</h1>
+<h2>Post your wildest rants and ideas</h2>
+  </header>
+
+<div id='menu'>
+<h3 id=loggedInElement></h3>
+<button class='mainBtn' id='makePost' type='button' onclick='onPost()'>Create New Post</button>
+<button id='registerUser' type='button' onclick='onNewUser()' class='mainBtn'>Create New User</button>
+<button id='login' type='button' onclick='onLogIn()' class='mainBtn'>Login</button>
+<p></p>
+<p><b>Instructions:</b> Start out by logging with an existing account. From there, you can register a new user, then log in, or click 'Create New Post' to make a new post. </p>
+<p>Note: Sometimes you must refresh if usernmes, or the crete user button do not load. </p>
+</div>
+
+<div id="postContainer">
+<h2>Current Battles...</h2>
+
+</div>
+
+<footer>
+  <p>This project implements an API from the University to build a simple blog with post, comments, and other features.</p>
+<p>This blog is built by Elijah Rodrigues</p>
+<h6>Attributions:</h6>
+  
+
+
+</footer>
+  
+</body>
+
+</html>
